@@ -1,0 +1,770 @@
+@font-face {
+font-family: 'golden 0 pony';
+font-style: normal;
+font-weight: normal;
+src: local('golden 0 pony'), url('../font/golden_0_pony.woff') format('woff');
+}
+
+body {
+  background-image: url(../img/fondo.png);  
+  background-position: center center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-color:#0082C1;
+ }
+
+
+html, body, .container {
+  height: 100%;
+}
+
+/* Reset */
+html, body,  {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body { 
+  font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 90px;
+  line-height: 20px;
+  margin-top: 20px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+
+}
+
+
+
+p {
+  margin: 0 0 5px 0;
+
+   -webkit-transform: rotate(-7deg); 
+-moz-transform: rotate(-7deg);
+}
+
+
+
+
+.container {
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.content {
+ 
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.sub-title {
+  margin: 20px auto;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+}
+
+
+
+#relajarte img{
+    margin-top: -23px;
+    z-index: 100;
+    width: 45%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -75px;
+}
+
+#precios .precio{
+  margin-top: 3px;
+  z-index: 120;
+  width: 17%;
+
+}
+#precios .horarios{
+  margin-top: -75px;
+  z-index: 120;
+  width: 17%;
+  margin-bottom: 19px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 20%;
+ z-index: 140px;
+ margin-top: -30px;
+
+}
+
+
+/* Media Queries */
+
+
+@media only screen and (min-width: 1300px) {
+
+  body, html {  
+  background-image: url(../img/fondo.png); 
+  background-position:  center;
+  background-attachment: fixed; 
+  background-color:#0082C1; 
+}
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+
+}
+.sub-title {
+  margin: 20px auto;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+.container {
+  display: table;
+  padding-top: 230px;
+  width: 100%;
+}
+#relajarte img{
+    margin-top: -18px;
+    z-index: 100;
+    width: 25%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -75px;
+}
+
+#precios .precio{
+  margin-top: 28px;
+  z-index: 120;
+  width: 10%;
+
+}
+#precios .horarios{
+  margin-top: -115px;
+  z-index: 120;
+  width: 10%;
+  margin-bottom: 19px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 10%;
+ z-index: 140px;
+ margin-top: -30px;
+
+}
+
+    
+}
+
+
+@media only screen and (max-width: 1002px) {
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+
+}
+.sub-title {
+  margin: 20px auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+.relajarte img{
+    margin-top: -23px;
+    z-index: 100;
+    width: 25%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -65px;
+}
+
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 15%;
+
+}
+#precios .horarios{
+  margin-top: -115px;
+  z-index: 120;
+  width: 17%;
+  margin-bottom: 10px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 15%;
+ z-index: 140px;
+ margin-top: -30px;
+
+}
+
+  
+}
+
+
+
+@media only screen and (max-width: 829px) {
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+
+}
+.sub-title {
+  margin: 20px auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+#relajarte .invitacion{
+  margin-top: -10px;
+}
+#precios{  
+  text-align: center;
+  margin-top: -55px;
+}
+
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 20%;
+
+}
+#precios .horarios{
+  margin-top: -115px;
+  z-index: 120;
+  width: 20%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 20%;
+ z-index: 140px;
+ margin-top: -20px;
+
+}
+.pie{
+  width: 10%;
+  padding-left: 20px;
+}
+
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 680px) {
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+
+}
+.sub-title {
+  margin: 20px auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+#relajarte .invitacion{
+  margin-top: -10px;
+  width: 60%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -55px;
+}
+
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 30%;
+
+}
+#precios .horarios{
+  margin-top: -115px;
+  z-index: 120;
+  width: 30%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 30%;
+ z-index: 140px;
+ margin-top: -20px;
+
+}
+#logos img{
+  width: 900%;
+   padding-left: 20px;
+}
+
+  
+}
+
+
+
+
+@media only screen and (max-width: 470px) {
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+
+}
+.sub-title {
+  margin: 20px auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+#relajarte .invitacion{
+  margin-top: -10px;
+  width: 100%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -65px;
+}
+
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 46%;
+
+}
+#precios .horarios{
+  margin-top: -40px;
+  z-index: 120;
+  width: 47%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 55%;
+ z-index: 140px;
+ margin-top: -20px;
+
+}
+#logos img{
+  width: 900%;
+   padding-left: 20px;
+}
+
+  
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-top: 44px;
+  padding-bottom: 0px;
+}
+.sub-title {
+  margin: 20px auto;
+  font-size: 37px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+
+
+#relajarte .invitacion{
+  margin-top: -10px;
+  width: 100%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -45px;
+
+}
+
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 46%;
+
+}
+#precios .horarios{
+  margin-top: -30px;
+  z-index: 120;
+  width: 47%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 55%;
+ z-index: 140px;
+ margin-top: -10px;
+
+}
+#logos img{
+  width: 900%;
+   padding-left: 0px;
+}
+
+  
+  .container {
+    position: relative;
+    display: block;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+  
+ 
+  
+  
+
+
+
+  
+  html, body, .container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  
+}
+.sub-title {
+ 
+  font-size: 37px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+
+
+#relajarte .invitacion{
+  margin-top: -10px;
+  width: 100%;
+}
+#precios{  
+  text-align: center;
+  margin-top: -45px;
+
+}
+
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 46%;
+
+}
+#precios .horarios{
+  margin-top: -30px;
+  z-index: 120;
+  width: 47%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+
+#comprar .donde-comprar{
+ width: 55%;
+ z-index: 140px;
+ margin-top: -10px;
+
+}
+#logos img{
+  width: 900%;
+   padding-left: 0px;
+} 
+  
+
+}
+
+@media only screen and (max-width: 376px) {
+  h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  
+}
+
+.sub-title {
+ 
+  font-size: 37px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+#precios{  
+  text-align: center;
+  margin-top: -35px;
+
+}
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 65%;
+
+}
+#precios .horarios{
+  margin-top: -40px;
+  z-index: 120;
+  width: 65%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+#comprar .donde-comprar{
+ width: 75%;
+ z-index: 140px;
+ margin-top: -10px;
+
+}
+#logos img{
+  width: 900%;
+   padding-left: 0px;
+} 
+  
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  -webkit-transform: rotate(-7deg); 
+  -moz-transform: rotate(-7deg);
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  opacity: 0.9;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  
+}
+
+.sub-title {
+ 
+  font-size: 37px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-family:'golden 0 pony'; font-weight:normal;
+  font-style: italic;
+  margin-bottom: 0px;
+  opacity: 0.7;
+
+
+}
+#precios{  
+  text-align: center;
+  margin-top: -35px;
+
+}
+#precios .precio{
+  margin-top: 11px;
+  z-index: 120;
+  width: 65%;
+
+}
+#precios .horarios{
+  margin-top: -40px;
+  z-index: 120;
+  width: 65%;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(3deg); 
+  -moz-transform: rotate(3deg);
+
+}
+#comprar .donde-comprar{
+ width: 75%;
+ z-index: 140px;
+ margin-top: -10px;
+
+}
+#logos img{
+  width: 900%;
+   padding-left: 0px;
+} 
+  
+}
+
+
+
+
+
+
+
+
